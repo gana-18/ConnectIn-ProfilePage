@@ -34,7 +34,7 @@ function Header({data}) {
                 <Image style={{borderRadius:'50%'}} src={data?.image} alt="me" width={48} height={48} loading="eager" />
             </div>
             <div className="edit">
-                <button onClick={()=>(signOut({ callbackUrl: `${process.env.URL}` }))}>Log Out</button>
+                <button onClick={()=>(signOut({ callbackUrl: `${process.env.NEXT_PUBLIC_URL}` }))}>Log Out</button>
             </div>
         </div>
     </div>
