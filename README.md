@@ -34,3 +34,36 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+
+## Overview Of the Project
+
+Make an account using Google Oauth. The User will be provided with his/her Profile Page, where they can the edit the profile by adding extra information.The user can share their profile with share profile button
+
+## Home Page
+
+
+
+## Profile Page(Sample)
+
+
+To run locally create a new file ".env.local"
+for this project the env variables are
+MONGO_URI
+GOOGLE_CLIENT_ID
+GOOGLE_CLIENT_SECRET
+SECRET
+NEXT_PUBLIC_URL
+
+System Design Involved 🤔?
+I would say Yes!. Not that much advanced but the concepts required for a succesfull web service
+
+1) Microservices Architecture:
+Divide the application into smaller services like user management, profile management, and content delivery. This makes the application modular, scalable, and easy to maintain.
+
+2) Caching:
+Use caching mechanisms for frequently accessed data like user profiles. This reduces the load on the database and improves response times.
+
+3) Lazy and eager loading for Images
+
+4) Asynchronous Processing
